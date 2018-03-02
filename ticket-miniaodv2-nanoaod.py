@@ -42,8 +42,8 @@ pwgs=mcm.get('restapi/users/get_pwg')['results']
 #pwgs=['B2G','BPH','BTV','EXO']
 print pwgs
 
-ochain = ''
-dchain = ''
+ochain = '' 	# this should be the full name of the origin chained campaign
+dchain = ''	# this should be the alias of the destination chained campaign (see below)
 
 
 #[1] Use False first to check
