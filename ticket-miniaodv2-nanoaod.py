@@ -42,10 +42,6 @@ pwgs=mcm.get('restapi/users/get_pwg')['results']
 #pwgs=['B2G','BPH','BTV','EXO']
 print pwgs
 
-ochain = '' 	# this should be the full name of the origin chained campaign
-dchain = ''	# this should be the alias of the destination chained campaign (see below)
-
-
 #[1] Use False first to check
 #Remember to use False first, to make sure that all tickets are creatable.
 #createTicket = True
@@ -54,15 +50,10 @@ createTicket = False
 N_REQUESTS_PER_TICKET = 30
 
 #[2] Choose one campaign types
-
+#ochain = '' 	# this should be the full name of the origin chained campaign
+#dchain = ''	# this should be the alias of the destination chained campaign (see below)
 ochain = 'chain_RunIIWinter15wmLHE_flowLHE2Summer15GS_flowRunIISummer16DR80PremixPUMoriond17NooutputpfMETcut_flowRunIISummer16PremixMiniAODv2'
 dchain = 'RunIISummer16DR80PremixPUMoriond17NooutputpfMETcutNanoAODwmLHE'
-
-
-
-
-
-
 
 ticketfilename = dchain+'.json'
 
