@@ -7,7 +7,9 @@ The script processes one chained campaign at time. It searches for root requests
 Improtant flags are 
 
 ``` createTicket #determines whether or not real tickets will be created in mcm```
+
 ``` ochain #full name of the origin chained campaign```
+
 ``` dchain #alias of the destination chained campaign```
 
 Script is launched using following command
