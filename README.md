@@ -22,4 +22,4 @@ python -u ticket-miniaodv2-nanoaod.py
 python -u ticket-miniaodv2-nanoaod.py|tee out.log 
 ```
 
-It is **strongly** advised to make tests in dev, before production migration.
+It is **strongly** advised to make tests in dev, before launching the script on prod.
