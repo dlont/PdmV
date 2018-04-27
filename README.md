@@ -51,7 +51,7 @@ e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
  - use process string '**pilot**' in request configuration (process string is very important for automatic assignement of the wf in disabled campaign)
  - validate/define/approve it (if this is GS or wmLHEGS campaign)
  - create new chained campaign that will connect root campaign with the campaign that will be probed by the pilot
- - create new ticket with relevant root request (**block 1**)
+ - create new ticket with relevant root request, chained campaign from previous step and **block 1**
  - approve ticket and generete chained request
  - submit pilot request
  - announce batch (https://cms-pdmv.cern.ch/mcm/batches?page=0&shown=29&status=new)
