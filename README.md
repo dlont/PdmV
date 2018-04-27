@@ -31,13 +31,13 @@ It is **strongly** advised to make tests in dev, before launching the script on 
 1. Chose name. Disscuss it with other request managers, PPD conveners. It should be similar to existing campaigns 
 e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
 2. Collect feedback on cmsDriver on prep-ops HN. Improtant ingredients are
- - cmssw release
- - GT
- - era
- - HLT menu (if this is DR campaign)
- - beamspot (if this is GS campaign)
- - possible customizations
- - Clarify the size of the minbias and premix libraries with PPD L1 conveners (if this is Premix or Stdmix DR campaign)
+  - cmssw release
+  - GT
+  - era
+  - HLT menu (if this is DR campaign)
+  - beamspot (if this is GS campaign)
+  - possible customizations
+  - Clarify the size of the minbias and premix libraries with PPD L1 conveners (if this is Premix or Stdmix DR campaign)
 3. Announce the campaign to Data-ops
 4. Create JIRA ticket for comp-ops
   - Subject of the ticket: **name of the campaign**
