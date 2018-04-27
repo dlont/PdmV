@@ -1,4 +1,4 @@
-# Short excercise how to migrate one chain
+# Short exercise how to migrate one chain
 
 ## Problem statement: PPD wants to migrate NanoAODv1 to NanoAODv2 using existing MiniAODv2 datasets as input for NanoAODv2 samples.
 You will use chained campaign with small number of requests to perform migration using semi-automatic script.
@@ -15,7 +15,7 @@ use https://cms-pdmv-dev.cern.ch/mcm/flows?prepid=flowRunIIFall17NanoAOD&page=0&
 3. Create new GS->NanoAODv2 chained campaign 
  - find chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAODv2 in the list of allowed chained campaigns
 4. Login to lxplus
-5. Dowload somewhere **ticket-miniaodv2-nanoaod.py** from github and fetch cookie file to the same directory
+5. Download somewhere **ticket-miniaodv2-nanoaod.py** from github and fetch cookie file to the same directory
  - $ cern-get-sso-cookie -u https://cms-pdmv-dev.cern.ch/mcm/ -o dev-cookie.txt --krb
 6. change the names of origin (ochain) and destination (dchain) chains in **ticket-miniaodv2-nanoaod.py** to
  chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAOD
@@ -31,9 +31,9 @@ use https://cms-pdmv-dev.cern.ch/mcm/flows?prepid=flowRunIIFall17NanoAOD&page=0&
 
 -----------------------------------
 
-## Additioanl info
+## Additional info
 
 ### list of root requests that have to be migrated
 https://cms-pdmv-dev.cern.ch/mcm/chained_requests?member_of_campaign=chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAOD*&page=0&shown=15
 
-These requests should have two NanoAOD chains after the exercise: NanoAOD and NanoAODv2 respectively
+These requests should have two NanoAOD chains after the exercise: NanoAOD and NanoAODv2, respectively
