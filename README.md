@@ -15,6 +15,8 @@ Improtant flags are
 Script is launched using following command
 ``` 
 cern-get-sso-cookie -u https://cms-pdmv.cern.ch/mcm/ -o cookie.txt --krb
+#or if you work on dev
+cern-get-sso-cookie -u https://cms-pdmv-dev.cern.ch/mcm/ -o dev-cookie.txt --krb
 
 #use createTicket = False        in the script to check that they make sence
 python -u ticket-miniaodv2-nanoaod.py
