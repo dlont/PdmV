@@ -47,7 +47,7 @@ e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
 5. Create new campaign in McM with correct cmsDriver sequence. Enable and start it ('next step' and 'toggle' icons)
 6. Prepare pilot request
  - clone request from other campaign (if this is GS or wmLHEGS campaign)
- - use process string '**pilot**' in request configuration (process string is very important for fast feedback from comp-ops)
+ - use process string '**pilot**' in request configuration (process string is very important for automatic assignement of the wf in disabled campaign)
  - validate/define/approve it (if this is GS or wmLHEGS campaign)
  - create new chained campaign that will connect root campaign with the campaign that will be probed by the pilot
  - create new ticket with relevant root request (**block 1**)
