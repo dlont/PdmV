@@ -57,3 +57,18 @@ e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
 7. Notify comp-ops via JIRA (see item 4.) about the pilot
  - always provide the link to **cmsprodmon** page of the pilot workflow (can be obtained by clicking on 'camera' at the pilot request page)
 
+
+# How to create new chained campaign
+*If flow does not exist*
+1. go to https://cms-pdmv.cern.ch/mcm/flows
+2. Create new flow (click the button in the bottom left corner)
+3. Select appropriate 'Allowed' and 'Next' campaigns
+4. Update 'Request parameters json'
+5. commit
+6. click 'Next step' icon to change the status of the flow to '**flow**'
+7. click 'Show possible chained campaigns'
+8. Identify appropriate chain and click 'Create chain campaign' icon
+9. Update notes, if necessary, and commit
+*If flow already exists*
+1. Identify relevant flow
+2. Go through items 7-9 from the previous list
