@@ -1,11 +1,12 @@
 # Short excercise how to migrate one chain
 
-## Additional information:
+## Problem statement: PPD wants to migrate NanoAODv1 to NanoAODv2 using existing MiniAODv2 datasets as input for NanoAODv2 samples.
+You will use chained campaign with small number of requests to perform migration using semi-automatic script.
 
-### small chain for migration (ochain)
+Small chain for migration (ochain)
 https://cms-pdmv-dev.cern.ch/mcm/chained_campaigns?prepid=chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAOD&page=0&shown=15
 
-### Task:
+### Tasks:
 
 1. Create new NanoAODv2 campaign in McM (call it RunIIFall17NanoAODv2)
 use https://cms-pdmv-dev.cern.ch/mcm/campaigns?prepid=RunIIFall17NanoAOD&page=0&shown=63 as example
@@ -33,6 +34,6 @@ use https://cms-pdmv-dev.cern.ch/mcm/flows?prepid=flowRunIIFall17NanoAOD&page=0&
 ## Additioanl info
 
 ### list of root requests that have to be migrated
-https://cms-pdmv-dev.cern.ch/mcm/chained_requests?member_of_campaign=chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAOD&page=0&shown=15
+https://cms-pdmv-dev.cern.ch/mcm/chained_requests?member_of_campaign=chain_RunIIFall17GS_flowRunIIFall17DRNoPU_flowRunIIFall17MiniAODv2_flowRunIIFall17NanoAOD*&page=0&shown=15
 
 These requests should have two NanoAOD chains after the exercise: NanoAOD and NanoAODv2 respectively
