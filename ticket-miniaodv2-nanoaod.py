@@ -39,7 +39,6 @@ is_dev_instance = True
 #[1] Use False first to check
 #Remember to use False first, to make sure that all tickets are creatable.
 is_dry_run = True
-is_dry_run = False
 
 if is_dry_run:
         print 'This is DRYRUN!'
