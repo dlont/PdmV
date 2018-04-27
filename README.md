@@ -69,6 +69,9 @@ e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
 7. click 'Show possible chained campaigns'
 8. Identify appropriate chain and click 'Create chain campaign' icon
 9. Update notes, if necessary, and commit
+10. Prepare new ticket with new chained campaign, generate and reserve chained request, fetch test command of the relevant request and test it locally at e.g. *lxplus*
+
 *If flow already exists*
-1. Identify relevant flow
+
+1. Identify relevant flow at https://cms-pdmv.cern.ch/mcm/flows
 2. Go through items 7-9 from the previous list
