@@ -38,13 +38,14 @@ e.g. RunIIFall17MiniAOD, RunIIFall17MiniAODv2, RunIIFall17NanoAOD etc.
   - beamspot (if this is GS campaign)
   - possible customizations
   - Clarify the size of the minbias and premix libraries with PPD L1 conveners (if this is Premix or Stdmix DR campaign)
-3. Announce the campaign to Data-ops
-4. Create JIRA ticket for comp-ops
+3. Create new campaign in McM with correct cmsDriver sequence. Enable and start it ('next step' and 'toggle' icons)
+  - create twiki page (e.g. https://twiki.cern.ch/twiki/bin/viewauth/CMS/PdmVMCcampaignRunIIFall17NanoAOD)
+4. Announce the campaign to Data-ops (See example post https://hypernews.cern.ch/HyperNews/CMS/get/dataopsrequests/22945.html. Improtant details are CMSSW release, number of threads, memory.)
+5. Create JIRA ticket for comp-ops
   - Subject of the ticket: **name of the campaign**
   - Assignee: **Allison Corry**
   - Label: **Unified officer**
   - example JIRA ticket can be found at https://its.cern.ch/jira/browse/CMSCOMPPR-2691
-5. Create new campaign in McM with correct cmsDriver sequence. Enable and start it ('next step' and 'toggle' icons)
 6. Prepare pilot request
  - clone request from other campaign (if this is GS or wmLHEGS campaign)
  - use process string '**pilot**' in request configuration (process string is very important for automatic assignement of the wf in disabled campaign)
