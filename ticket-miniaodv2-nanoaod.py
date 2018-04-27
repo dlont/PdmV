@@ -33,7 +33,7 @@ def dr_output_not_saved(list_of_root_request,ochain):
 
 # Global settings defining access to McM
 cookie_file = ''
-is_dev_instance = False
+is_dev_instance = True
 
 
 #[1] Use False first to check
