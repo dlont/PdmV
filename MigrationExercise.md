@@ -9,6 +9,7 @@ https://cms-pdmv-dev.cern.ch/mcm/chained_campaigns?prepid=chain_RunIIFall17GS_fl
 ### Tasks:
 
 1. Create new NanoAODv2 campaign in McM (call it RunIIFall17NanoAODv2)
+- Update CMSSW release to CMSSW_9_4_7 (this release does not exist at the time of writing, but it is fine for the sake of demonstration)
 use https://cms-pdmv-dev.cern.ch/mcm/campaigns?prepid=RunIIFall17NanoAOD&page=0&shown=63 as example
 2. Create new MiniAODv2 -> NanoAODv2 flow (call it flowRunIIFall17NanoAODv2)
 use https://cms-pdmv-dev.cern.ch/mcm/flows?prepid=flowRunIIFall17NanoAOD&page=0&shown=31 as example
